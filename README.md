@@ -28,6 +28,8 @@ files, so currently, it will only work on Linux, Unix, and OS X.*
 1. DO NOT configure Terraform remote state storage for this code. You do NOT want to store the state files as they 
    will contain the private keys for the certificates.
 
+1. Run `terraform init`.
+
 1. Run `terraform apply`. The output will show you the paths to the generated files:
 
     ```
